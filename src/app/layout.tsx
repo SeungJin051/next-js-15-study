@@ -1,3 +1,5 @@
+import styles from './page.module.css';
+
 export default function RootLayout({
   children,
 }: {
@@ -6,8 +8,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <h1>Root Layout</h1>
-        {children}
+        <div className={styles.container}>{children}</div>
       </body>
     </html>
   );
