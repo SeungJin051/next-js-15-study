@@ -1,7 +1,7 @@
 const Page = () => {
   return (
     <main>
-      <h1>회원가입 모달</h1>
+      <h1>페러렐 모달 </h1>
     </main>
   );
 };

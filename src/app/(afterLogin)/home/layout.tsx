@@ -1,8 +1,7 @@
-export default function HomeLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+import React from 'react';
+
+type Props = { children: React.ReactNode };
+export default function HomeLayout({ children }: Props) {
   return (
     <div>
       <h1>Home Layout</h1>

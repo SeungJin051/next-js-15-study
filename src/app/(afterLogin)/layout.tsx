@@ -1,8 +1,8 @@
-export default function AfterLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+import React from 'react';
+
+type Props = { children: React.ReactNode };
+
+export default function AfterLayout({ children }: Props) {
   return (
     <div>
       <h1>AfterLogin Layout</h1>
